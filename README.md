@@ -12,7 +12,7 @@ npm i --save do-pipeline
 
 ```
 
-const Pipeline = require("do-pipeline").default;
+const Pipeline = require("do-pipeline");
 const Promise = require("bluebird");
 
 const capitalize = str => str[0].toUpperCase() + str.substring(1);
