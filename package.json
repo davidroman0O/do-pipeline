@@ -1,12 +1,17 @@
 {
   "name": "do-pipeline",
-  "version": "0.0.8",
-  "description": "Simple function DO i use everyday",
+  "version": "0.0.9",
+  "description": "Make pipeline of functions into pipeline of functions into pipeline of...",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
   "repository": "https://github.com/davidroman0O/do-pipeline",
   "license": "MIT",
+  "author": {
+    "name" : "David Roman",
+    "email" : "hello@davidroman.io",
+    "url" : "https://github.com/davidroman0O"
+  },
   "keywords": [
       "pipeline",
       "pipelines"

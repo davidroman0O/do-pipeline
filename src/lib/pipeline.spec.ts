@@ -2,9 +2,12 @@
 import test from 'ava';
 import Promise from "bluebird";
 
-import Pipeline from './pipeline';
+// import Pipeline from '../index';
+const Pipeline = require('../index');
 
-test('getABC', async t => {
+console.log(Pipeline);
+
+test('Pipeline', async t => {
 
 
     const capitalize = str => str[0].toUpperCase() + str.substring(1);

@@ -1,5 +1,7 @@
 # do-pipeline
 
+I'll do a better readme later!
+
 Simple function DO i use everyday
 
 ```bash
