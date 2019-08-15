@@ -1,6 +1,6 @@
 {
   "name": "do-pipeline",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Simple function DO i use everyday",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
