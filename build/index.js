@@ -1,6 +1,6 @@
 /*!
  * 
- *   do-pieline v0.0.3
+ *   do-pieline v0.0.4
  *   https://github.com/davidroman0O/do-pipeline
  * 
  *   Copyright (c) David Roman (https://github.com/davidroman0O)
