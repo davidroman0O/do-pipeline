@@ -1,7 +1,10 @@
 language: node_js
 node_js:
- - node
-install:
-  - npm install
+  - v8
 script:
-- npm run test
+  - yarn lint
+  - yarn test --coverage
+cache:
+  - yarn
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
