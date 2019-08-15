@@ -1,7 +1,7 @@
 {
-  "private": true,
+  "private": false,
   "name": "do-pipeline",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple but powerful way to pipeline code",
   "repository": "https://github.com/davidroman0O/do-pipeline",
   "author": "David Roman <hello@davidroman.io>",
