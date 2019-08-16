@@ -8,18 +8,18 @@
   "repository": "https://github.com/davidroman0O/do-pipeline",
   "license": "MIT",
   "author": {
-    "name" : "David Roman",
-    "email" : "hello@davidroman.io",
-    "url" : "https://github.com/davidroman0O"
+    "name": "David Roman",
+    "email": "hello@davidroman.io",
+    "url": "https://github.com/davidroman0O"
   },
   "keywords": [
-      "pipeline",
-	  "pipelines",
-	  "data-oriented-design",
-	  "data-oriented",
-	  "do",
-	  "minimalist",
-	  "minimalistic"
+    "pipeline",
+    "pipelines",
+    "data-oriented-design",
+    "data-oriented",
+    "do",
+    "minimalist",
+    "minimalistic"
   ],
   "scripts": {
     "describe": "npm-scripts-info",
@@ -32,8 +32,8 @@
     "test": "run-s build test:*",
     "test:log": "run-s build test:*",
     "test:lint": "tslint --project . && prettier \"src/**/*.ts\" --list-different",
-	"test:unit": "nyc --silent ava",
-	"test:unit:log": "nyc ava --verbose",
+    "test:unit": "nyc --silent ava",
+    "test:unit:log": "nyc ava --verbose",
     "watch": "run-s clean build:main && run-p \"build:main -- -w\" \"test:unit -- --watch\"",
     "watch:log": "run-s clean build:main && run-p \"build:main -- -w\" \"test:unit:log -- --watch\"",
     "cov": "run-s build test:unit cov:html && open-cli coverage/index.html",
@@ -66,8 +66,7 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "bluebird": "^3.5.5",
-    "sha.js": "^2.4.11"
+    "bluebird": "^3.5.5"
   },
   "devDependencies": {
     "ava": "2.2.0",
