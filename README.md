@@ -8,7 +8,7 @@
 - **Pipelineception**: you can put pipelines into a pipeline and so on!
 - **So simple it works everywhere** and it's way more easier to read!
 
-Give me a star if you like it 🤩
+By using it, it feels like to go from programmer to scenarist!
 
 Thank you for using this small piece of code in your projects 😍
 
@@ -21,17 +21,17 @@ npm i --save do-pipeline
 # Usage
 
 
-```
+```javascript
 //	with import
 import Pipeline from 'do-pipeline';
 //	with require
-const Pipeline = require('do-pipeline);
+const Pipeline = require('do-pipeline');
 ```
 
 
 Simple usage :
 
-```
+```javascript
 
 const Pipeline = require("do-pipeline");
 const Promise = require("bluebird");
@@ -46,12 +46,12 @@ const wait = async values => {
 };
 
 Pipeline([
-  "love food",
-  capitalize,
-  wait,
-  splitOnSpaces,
-  getLastOfArr,
-  toUpper
+	"love food",
+	capitalize,
+	wait,
+	splitOnSpaces,
+	getLastOfArr,
+	toUpper
 ])
 .then(data => console.log(data)); 
 
