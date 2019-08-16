@@ -8,6 +8,10 @@
 - **Pipelineception**: you can put pipelines into a pipeline and so on!
 - **So simple it works everywhere** and it's way more easier to read!
 
+Give me a star is you liked it 🤩
+
+Thank you for using this small piece of code in your projects 😍
+
 # Install it
 
 ```shell
