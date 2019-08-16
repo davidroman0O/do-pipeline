@@ -1,14 +1,31 @@
-# do-pipeline
+# [do-pipeline](https://github.com/davidroman0O/do-pipeline/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/davidroman0O/do-pipeline/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/do-pipeline.svg?style=flat)](https://www.npmjs.com/package/do-pipeline) 
 
-I'll do a better readme later!
 
-Simple function DO i use everyday
+`do-pipeline` is a minimalist pipeline library for your data workflows.
 
-```bash
+- **Put your params first** then let's chain your functions
+- **Promise based**: it's `bluebird` friendly
+- **Pipelineception**: you can put pipelines into a pipeline and so on!
+- **So simple it works everywhere** and it's way more easier to read!
+
+# Install it
+
+```shell
 npm i --save do-pipeline
 ```
 
 # Usage
+
+
+```
+//	with import
+import Pipeline from 'do-pipeline';
+//	with require
+const Pipeline = require('do-pipeline);
+```
+
+
+Simple usage :
 
 ```
 
@@ -37,3 +54,7 @@ Pipeline([
 // FOOD
 
 ```
+
+For more example, just take a look at the [unit test file](https://github.com/davidroman0O/do-pipeline/blob/master/src/lib/pipeline.spec.ts) !
+
+Have fun 😄

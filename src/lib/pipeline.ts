@@ -1,7 +1,9 @@
 import Promise from "bluebird";
+
 /**
- * A pipeline reducer
- *
+ *  Create a pipeline of functions from initial params
+ *  The first param are your values
+ *  Then functions or promises
  * @returns       a Promise which should contain `Your data`
  */
 export default async function pipeline(a : any): Promise<any> {
